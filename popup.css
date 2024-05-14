@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  li .text {
+    flex: 1;
+    font-size: 16px;
+    word-wrap: break-word;
+    max-width: 650px; /* Adjust based on your layout needs */
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button.editButton {
+    background-color: #2196F3;
+  }
+  
+  button.deleteButton {
+    background-color: #f44336;
+  }
+  
+  #addButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #008CBA;
+    border-radius: 5px;
+  }
+  
+  #bulkExtendButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #aa029d;
+    border-radius: 5px;
+  }
