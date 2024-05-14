@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kibana Extender</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="rison.js"></script>
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 style="margin-top: 0px">Kibana Search Extensions</h1>
+    <ul id="entries"></ul>
+    <button id="addButton">Add New Entry</button>
+    <button id="bulkExtendButton">Bulk Extend</button>
+  </div>
+  <template id="entryTemplate">
+    <li>
+      <input type="checkbox" class="entryCheckbox">
+      <span class="text"></span>
+      <button class="editButton">Edit</button>
+      <button class="deleteButton">Delete</button>
+      <button class="extendButton">Extend</button>
+    </li>
+  </template>
+</body>
+</html>
