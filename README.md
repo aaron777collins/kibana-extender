@@ -1,2 +1,2 @@
 # kibana-extender
-Adds text to the end of kibana queries to allow you to quickly build common queries.
+Extends Kibana queries with one or more of your stored extensions. It takes your current query and adds "AND \<your text>".
